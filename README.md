@@ -72,7 +72,6 @@ kubectl port-forward svc/prometheus 30090:9090
  * CPU / Memory usage if Node Exporter or kube-metrics installed
 
  * Optional: Error rates (app_errors_total)
- * 
 
 ## Project Structure
 ```
