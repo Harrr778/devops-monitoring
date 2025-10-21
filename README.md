@@ -63,16 +63,6 @@ kubectl port-forward svc/prometheus 30090:9090
 ```
  * Prometheus URL: http://localhost:30090
 
-### 5. Dashboard Metrics
-
- * app_requests_total → Total requests
-
- * rate(app_requests_total[1m]) → Requests per second
-
- * CPU / Memory usage if Node Exporter or kube-metrics installed
-
- * Optional: Error rates (app_errors_total)
-
 ## Project Structure
 ```
 devops-monitoring/
