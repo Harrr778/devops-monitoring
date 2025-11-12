@@ -40,8 +40,8 @@ This project demonstrates a **full DevOps monitoring stack** using:
 ### 1. Build Docker image
 
 ```bash
-docker build -t <your-dockerhub-username>/python-app:latest ./app
-docker push <your-dockerhub-username>/python-app:latest
+docker build -t Harrr778/python-app:latest ./app
+docker push Harrr778/python-app:latest
 ```
 ### 2. Deploy to Kubernetes
 
